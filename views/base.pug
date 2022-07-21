@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Pathak Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src='/static/img/logo.png')
+                | PDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") ContactUs]
+    block content
+    footer#footer 
+        | Copyright © 2019 PathakDanceAcademy.com | All rights reserved
